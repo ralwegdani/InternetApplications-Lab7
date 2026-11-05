@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unsplash API Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <h1>Unsplash API</h1>
+    <input type="text" id="query" placeholder="Search photos" value="Makkah">
+    <button id="btnXHR">Search using XHR</button>
+    <button id="btnPromise">Search using fetch (promises)</button>
+    <button id="btnAsync">Search using fetch (async/await)</button>
+  </header>
+
+  <main>
+    <p id="status"></p>
+    <div id="gallery" class="gallery"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
